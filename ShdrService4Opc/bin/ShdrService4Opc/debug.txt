@@ -1,0 +1,59 @@
+5/6/2011 4:01:17 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.24423
+Abort MTConnect Service5/7/2011 4:01:35 PM
+5/9/2011 7:56:49 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.24423
+5/9/2011 9:05:31 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+Stop MTConnect Service5/9/2011 9:05:53 AM
+5/9/2011 9:05:55 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+threadServer Error nOnly one usage of each socket address (protocol/network address/port) is normally permitted
+
+Stop MTConnect Service5/9/2011 9:06:17 AM
+5/9/2011 9:20:28 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+Stop MTConnect Service5/9/2011 9:42:50 AM
+5/9/2011 9:43:02 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+threadServer Error nOnly one usage of each socket address (protocol/network address/port) is normally permitted
+
+Stop MTConnect Service5/9/2011 9:46:04 AM
+5/9/2011 9:46:04 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+Stop MTConnect Service5/9/2011 9:47:46 AM
+5/9/2011 9:48:24 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13787
+Stop MTConnect Service5/9/2011 9:49:26 AM
+5/9/2011 10:08:05 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16420
+OPC Disconnect Error: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+5/9/2011 10:11:55 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16420
+Stop MTConnect Service5/9/2011 10:12:37 AM
+5/9/2011 10:13:06 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+Stop MTConnect Service5/9/2011 10:13:28 AM
+5/9/2011 10:13:30 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+threadServer Error nOnly one usage of each socket address (protocol/network address/port) is normally permitted
+
+OPC Disconnect Error: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+Stop MTConnect Service5/9/2011 10:14:52 AM
+5/9/2011 10:14:52 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+OPC Disconnect Error: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+OPC Disconnect Error: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+Stop MTConnect Service5/9/2011 10:18:34 AM
+5/9/2011 10:18:34 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+threadServer Error nOnly one usage of each socket address (protocol/network address/port) is normally permitted
+
+Stop MTConnect Service5/9/2011 10:20:37 AM
+5/9/2011 10:20:37 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+Stop MTConnect Service5/9/2011 10:21:19 AM
+5/9/2011 10:21:44 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.16564
+5/10/2011 8:47:03 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.13967

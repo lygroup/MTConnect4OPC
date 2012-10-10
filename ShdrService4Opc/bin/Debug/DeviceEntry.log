@@ -1,0 +1,252 @@
+<Log> 10/13/2009 3:44:50 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:44:50 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:44:50 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 3:52:10 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:52:10 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:52:10 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 3:52:37 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:52:37 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:52:37 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 3:58:54 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:58:54 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:58:54 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 3:59:21 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:59:21 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:59:21 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 3:59:26 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini'. </Log>
+<Log> 10/13/2009 3:59:26 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 10/13/2009 3:59:26 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 10/13/2009 4:02:11 PM: LDAP DeviceEntry Starting </Log>
+<Log> 10/13/2009 4:02:11 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 10/13/2009 4:02:11 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 10/13/2009 4:02:11 PM: LDAP DeviceEntry Finished </Log>
+<Log> 13/10/2009 8:30:22 : LDAP DeviceEntry Starting </Log>
+<Log> 13/10/2009 8:30:22 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 13/10/2009 8:30:22 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 13/10/2009 8:30:22 : LDAP DeviceEntry Finished </Log>
+<Log> 10/15/2009 12:26:25 PM: LDAP DeviceEntry Starting </Log>
+<Log> 10/15/2009 12:26:25 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 10/15/2009 12:26:25 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 10/15/2009 12:26:25 PM: LDAP DeviceEntry Finished </Log>
+<Log> 10/15/2009 12:28:23 PM: LDAP DeviceEntry Starting </Log>
+<Log> 10/15/2009 12:28:23 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 10/15/2009 12:28:23 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 10/15/2009 12:28:23 PM: LDAP DeviceEntry Finished </Log>
+<Log> 10/15/2009 12:29:10 PM: LDAP DeviceEntry Starting </Log>
+<Log> 10/15/2009 12:29:10 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 10/15/2009 12:29:10 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 10/15/2009 12:29:10 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/22/2010 3:42:07 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/22/2010 3:42:07 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/22/2010 3:42:07 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/22/2010 3:42:07 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/22/2010 3:44:42 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/22/2010 3:44:42 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/22/2010 3:44:42 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/22/2010 3:44:42 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/22/2010 3:46:12 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/22/2010 3:46:12 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/22/2010 3:46:12 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/22/2010 3:46:12 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:12:52 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:12:52 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:12:52 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:12:52 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:14:13 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:14:13 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:14:13 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:14:13 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:15:21 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:15:21 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:15:21 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:15:21 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:17:41 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:17:41 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:17:41 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:17:41 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:18:29 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:18:29 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:18:29 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:18:29 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:20:08 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:20:08 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:20:08 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:20:08 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:20:54 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:20:54 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:20:54 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:20:54 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/3/2010 1:23:54 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/3/2010 1:23:54 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/3/2010 1:23:54 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/3/2010 1:23:54 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/12/2011 8:34:39 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/12/2011 8:34:39 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/12/2011 8:34:39 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/12/2011 8:34:39 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/12/2011 8:34:54 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/12/2011 8:34:54 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/12/2011 8:34:54 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/12/2011 8:34:54 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/23/2011 10:38:29 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/23/2011 10:38:29 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/23/2011 10:38:29 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/23/2011 10:38:29 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/23/2011 10:40:42 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/23/2011 10:40:42 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/23/2011 10:40:42 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/23/2011 10:40:42 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 1:31:18 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 1:31:18 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 1:31:18 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 1:31:18 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 1:33:33 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 1:33:33 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 1:33:33 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 1:33:33 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 1:34:01 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 1:34:01 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 1:34:01 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 1:34:01 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 1:38:22 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 1:38:22 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 1:38:22 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 1:38:22 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 3:43:31 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 3:43:31 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 3:43:31 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 3:43:31 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 3:47:46 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 3:47:46 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 3:47:46 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 3:47:46 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 3:53:46 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 3:53:46 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 3:53:46 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 3:53:46 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 3:56:10 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 3:56:10 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 3:56:10 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 3:56:10 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:13:33 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:13:33 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:13:33 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:13:33 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:15:12 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:15:12 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:15:12 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:15:12 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:18:53 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:18:53 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:18:53 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:18:53 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:20:40 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:20:40 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:20:40 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:20:40 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:21:44 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:21:44 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:21:44 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:21:44 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:22:02 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:22:02 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:22:02 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:22:02 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:28:25 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:28:25 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:28:25 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:28:25 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:33:46 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:33:46 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:33:46 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:33:46 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:38:59 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:38:59 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:38:59 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:38:59 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/24/2011 4:41:17 PM: LDAP DeviceEntry Starting </Log>
+<Log> 1/24/2011 4:41:17 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/24/2011 4:41:17 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/24/2011 4:41:17 PM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 8:49:10 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 8:49:10 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 8:49:10 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 8:49:10 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 8:56:44 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 8:56:44 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 8:56:44 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 8:56:44 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:11:23 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:11:23 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:11:23 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:11:23 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:19:30 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:19:30 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:19:30 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:19:30 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:23:20 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:23:20 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:23:20 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:23:20 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:30:39 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:30:39 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:30:39 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:30:39 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:32:12 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:32:12 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:32:12 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:32:12 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:55:16 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:55:16 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:55:16 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:55:16 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 9:56:19 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 9:56:19 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 9:56:19 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 9:56:19 AM: LDAP DeviceEntry Finished </Log>
+<Log> 1/25/2011 10:00:52 AM: LDAP DeviceEntry Starting </Log>
+<Log> 1/25/2011 10:00:52 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 1/25/2011 10:00:52 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 1/25/2011 10:00:52 AM: LDAP DeviceEntry Finished </Log>

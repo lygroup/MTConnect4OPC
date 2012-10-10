@@ -1,0 +1,50 @@
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\Novell.Directory.Ldap.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe.config
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\Devices.xml
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\startservice.bat
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\stopservice.bat
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe.config
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.exe
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\Devices.xml
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\mtcagent.ini
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\startservice.bat
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\stopservice.bat
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\Novell.Directory.Ldap.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.pdb
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.exe.config
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\MTCService4Opc.exe
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\ResolveAssemblyReference.cache
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\Devices.xml
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\mtcagent.ini
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\startservice.bat
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\stopservice.bat
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.exe
+D:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.exe.config
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\MTCService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\Devices.xml
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\mtcagent.ini
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\startservice.bat
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\stopservice.bat
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\MTCService4Opc\bin\Debug\MTCService4Opc.pdb

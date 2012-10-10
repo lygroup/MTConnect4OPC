@@ -1,0 +1,62 @@
+
+
+http://support.microsoft.com/kb/251192 details the sc for service control manager options.
+For password change, may have to delete and reinstall, but recovery is an issue
+
+usage: psservice [\\computer [-u username] [-p password]] <command> <options>
+ 
+	-u		Specifies optional user name for login to remote computer.	   
+	-p		Specifies optional password for user name. If you omit this you will be prompted to enter a hidden password.	   
+	query		Displays the status of a service	   
+	config 		Displays the configuration of a service	   
+	setconfig	Specify the start type (auto, demand, disabled) of a service.	   
+	start		Starts a service	   
+	stop		Stops a service	   
+	restart		Stops and then restarts a service	   
+	pause 		Pauses a service	   
+	cont		Resumes a paused service	   
+	security	Dumps the service's security descriptor	   
+	depend		Lists the services dependent on the one specified	   
+	find		Searches the network for the specified service	 
+
+sc
+
+Delete Deletes a service (from the registry). 
+
+
+sc \\remotecomputer create newservice binpath= c:\nt\system32\newserv.exe
+sc create newservice binpath= c:\nt\system32\newserv.exe type= own start= auto 
+
+
+
+
+
+
+' copy
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set aFile = fso.CreateTextFile(".\output.dat", True)
+aFile.WriteLine("1234")
+Set aFile = fso.GetFile(".\output.dat")
+aFile.Copy("./output.bak")
+
+' alternate
+fso.CopyFile "c:\mydir\*.*", "d:\backup\",TRUE
+
+' copy folder
+fso.CopyFolder "c:\mydir\*", "D:\backup\mydir\",TRUE
+
+
+
+' delete
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set aFile = fso.GetFile(".\output.dat")
+aFile.Delete
+
+
+' move or rename
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set aFile = fso.CreateTextFile(".\output.dat", True)
+aFile.WriteLine("1234")
+Set aFile = fso.GetFile(".\output.dat")
+aFile.Move ".\output.ok"
+

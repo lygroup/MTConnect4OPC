@@ -1,0 +1,32 @@
+10/15/2009 12:20:27 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20262
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+10/15/2009 12:20:42 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20262
+10/15/2009 12:21:04 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20262
+Stop MTConnect Service10/15/2009 12:24:24 PM
+10/15/2009 12:30:53 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+Stop MTConnect Service10/15/2009 12:53:14 PM
+10/16/2009 2:45:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
+10/16/2009 3:52:02 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
+Abort MTConnect Service10/17/2009 3:52:03 PM
+10/17/2009 3:52:35 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+Abort MTConnect Service10/18/2009 3:52:57 PM
+10/18/2009 3:53:18 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+10/19/2009 8:46:35 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
+10/19/2009 8:54:30 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
+Stop MTConnect Service10/19/2009 2:58:52 PM
+5/11/2011 12:04:49 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.19939

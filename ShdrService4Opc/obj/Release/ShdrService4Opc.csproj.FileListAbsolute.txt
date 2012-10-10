@@ -1,0 +1,9 @@
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\mtcagent.ini
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\startservice.bat
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\stopservice.bat
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\ShdrService4Opc.exe.config
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\ShdrService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\bin\Release\ShdrService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\obj\Release\ShdrService4Opc.exe
+C:\Program Files\NIST\proj\MTConnect\Nist\MTConnectAgent Siemens OPC SHDR\ShdrService4Opc\obj\Release\ShdrService4Opc.pdb
