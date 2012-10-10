@@ -1,0 +1,23 @@
+﻿
+
+
+
+CHANGELOG MT Connect Agent Simulator
+
+
+Thu 12/17/09 03:03:58 PM
+	* problems on/off/on/off every ten seconds???
+ 
+
+Tue 12/15/09 08:05:05 PM
+	* add alarm handling logic - combine three columns into one - CODE HACK FOR NOW. Should be app.config hack.
+	        csvDataTable.Columns["Alarm"].ColumnName = "AlarmText";
+            csvDataTable.Columns.Add("alarm").Expression = "AlarmText + ':' +  AlarmSeverity  + ':' + AlarmState";
+
+	* add per device config info
+	* filter in app config - "Machine = m24743"
+	* multiple devices supported, simulated
+	
+Mon 12/14/09 04:35:05 PM
+	* initial version tested
+	

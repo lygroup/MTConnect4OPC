@@ -1,0 +1,16 @@
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentSHDR.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentSHDR.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentCore.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\Novell.Directory.Ldap.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentCore.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\MTConnectAgentSHDR.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\MTConnectAgentSHDR.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentSHDR.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentSHDR.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentCore.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\Novell.Directory.Ldap.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\bin\Release\MTConnectAgentCore.pdb
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\ResolveAssemblyReference.cache
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\MTConnectAgentSHDR.dll
+D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSHDR\obj\Release\MTConnectAgentSHDR.pdb

@@ -1,0 +1,299 @@
+<Log> 12/14/2009 1:55:51 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Debug\mtcagent.ini'. </Log>
+<Log> 12/14/2009 1:55:51 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 12/14/2009 1:55:51 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 12/14/2009 1:56:17 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Debug\mtcagent.ini'. </Log>
+<Log> 12/14/2009 1:56:17 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 12/14/2009 1:59:40 PM: ********* Configuration:Error:Could not find file 'C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Debug\mtcagent.ini'. </Log>
+<Log> 12/14/2009 1:59:40 PM: Agent Start Failed.
+ Problem with mtcagent.ini </Log>
+<Log> 12/14/2009 1:59:40 PM: Agent Start Failed.  System.TypeInitializationException: The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception. ---> MTConnectAgentCore.AgentException: Agent Start Failed.
+ Problem with mtcagent.ini
+   at MTConnectAgentCore.Configuration..ctor(Boolean LoadDefault) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Configuration.cs:line 127
+   at MTConnectAgentCore.DeviceEntry..cctor() in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\DeviceEntry.cs:line 41
+   --- End of inner exception stack trace ---
+   at MTConnectAgentCore.DeviceEntry..ctor()
+   at MTConnectAgentCore.Agent.Start(Int32 ipport) in C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 31 </Log>
+<Log> 12/14/2009 2:02:32 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:02:32 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:02:32 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:02:32 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:03:32 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:03:32 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:03:32 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:03:32 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:19:09 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:19:09 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:19:09 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:19:09 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:20:17 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:20:17 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:20:17 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:20:17 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:33:12 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:33:12 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:33:12 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:33:12 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:43:58 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:43:58 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:43:58 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:43:58 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:48:33 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:48:33 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:48:33 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:48:33 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:49:01 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:49:01 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:49:01 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:49:01 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:50:35 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:50:35 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:50:35 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:50:35 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:52:28 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:52:28 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:52:28 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:52:28 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:52:53 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:52:53 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:52:53 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:52:53 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:53:13 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:53:13 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:53:13 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:53:13 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:57:29 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:57:29 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:57:29 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:57:29 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 2:59:00 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 2:59:00 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 2:59:00 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 2:59:00 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 3:00:28 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 3:00:28 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 3:00:28 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 3:00:28 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 3:02:28 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 3:02:28 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 3:02:28 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 3:02:28 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 3:05:08 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 3:05:08 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 3:05:08 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 3:05:08 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/14/2009 3:05:55 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/14/2009 3:05:55 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/14/2009 3:05:55 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/14/2009 3:05:55 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 1:42:54 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 1:42:54 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 1:42:54 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 1:42:54 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 1:43:28 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 1:43:28 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 1:43:28 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 1:43:28 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 1:44:16 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 1:44:16 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 1:44:16 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 1:44:16 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 1:46:07 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 1:46:07 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 1:46:07 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 1:46:07 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 1:47:31 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 1:47:31 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 1:47:31 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 1:47:31 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:23:43 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:23:43 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:23:43 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:23:43 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:23:56 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:23:56 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:23:56 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:23:56 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:25:48 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:25:48 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:25:48 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:25:48 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:26:19 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:26:19 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:26:19 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:26:19 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:26:29 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:26:29 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:26:29 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:26:29 PM: LDAP DeviceEntry Finished </Log>
+<Log> 12/15/2009 2:28:18 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/15/2009 2:28:18 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/15/2009 2:28:18 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/15/2009 2:28:18 PM: LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:26:00 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:26:00 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:26:00 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:26:00 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:31:40 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:31:40 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:31:40 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:31:40 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:32:09 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:32:09 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:32:09 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:32:09 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:44:33 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:44:33 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:44:33 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:44:33 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:45:31 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:45:31 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:45:31 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:45:31 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 8:55:15 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 8:55:15 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 8:55:15 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 8:55:15 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 9:01:34 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 9:01:34 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 9:01:34 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 9:01:34 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 9:03:11 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 9:03:11 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 9:03:11 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 9:03:11 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 9:05:09 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 9:05:09 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 9:05:09 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 9:05:09 : LDAP DeviceEntry Finished </Log>
+<Log> 15/12/2009 9:07:17 : LDAP DeviceEntry Starting </Log>
+<Log> 15/12/2009 9:07:17 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 15/12/2009 9:07:17 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 15/12/2009 9:07:17 : LDAP DeviceEntry Finished </Log>
+<Log> 16/12/2009 10:07:31 : LDAP DeviceEntry Starting </Log>
+<Log> 16/12/2009 10:07:31 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 16/12/2009 10:07:31 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 16/12/2009 10:07:31 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 10:29:51 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 10:29:51 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 10:29:51 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 10:29:51 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:04:24 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:04:24 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:04:24 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:04:24 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:09:01 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:09:01 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:09:01 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:09:01 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:17:03 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:17:03 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:17:03 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:17:03 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:17:29 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:17:29 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:17:29 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:17:29 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:19:23 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:19:23 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:19:23 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:19:23 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:26:30 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:26:30 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:26:30 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:26:30 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:27:43 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:27:43 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:27:43 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:27:43 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:28:54 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:28:54 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:28:54 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:28:54 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:30:07 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:30:07 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:30:07 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:30:07 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:31:50 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:31:50 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:31:50 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:31:50 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:32:43 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:32:43 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:32:43 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:32:43 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:32:58 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:32:58 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:32:58 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:32:58 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:34:23 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:34:23 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:34:23 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:34:23 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:35:24 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:35:24 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:35:24 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:35:24 : LDAP DeviceEntry Finished </Log>
+<Log> 17/12/2009 3:36:39 : LDAP DeviceEntry Starting </Log>
+<Log> 17/12/2009 3:36:39 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 17/12/2009 3:36:39 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 17/12/2009 3:36:39 : LDAP DeviceEntry Finished </Log>
+<Log> 25/12/2009 2:00:26 : LDAP DeviceEntry Starting </Log>
+<Log> 25/12/2009 2:00:26 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 25/12/2009 2:00:26 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 25/12/2009 2:00:26 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 2:22:51 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 2:22:51 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 2:22:51 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 2:22:51 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 2:28:57 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 2:28:57 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 2:28:57 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 2:28:57 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 2:30:12 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 2:30:12 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 2:30:12 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 2:30:12 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 2:30:32 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 2:30:32 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 2:30:32 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 2:30:32 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 4:09:51 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 4:09:51 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 4:09:51 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 4:09:51 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 4:46:27 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 4:46:27 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 4:46:27 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 4:46:27 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 4:57:19 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 4:57:19 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 4:57:19 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 4:57:19 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 8:07:30 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 8:07:30 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 8:07:30 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 8:07:30 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 8:07:54 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 8:07:54 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 8:07:54 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 8:07:54 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 8:19:03 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 8:19:03 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 8:19:03 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 8:19:03 : LDAP DeviceEntry Finished </Log>
+<Log> 27/12/2009 10:54:59 : LDAP DeviceEntry Starting </Log>
+<Log> 27/12/2009 10:54:59 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 27/12/2009 10:54:59 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 27/12/2009 10:54:59 : LDAP DeviceEntry Finished </Log>
+<Log> 12/30/2009 2:21:10 PM: LDAP DeviceEntry Starting </Log>
+<Log> 12/30/2009 2:21:10 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 12/30/2009 2:21:10 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 12/30/2009 2:21:10 PM: LDAP DeviceEntry Finished </Log>

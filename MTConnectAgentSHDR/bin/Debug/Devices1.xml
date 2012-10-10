@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mt:MTConnectDevices  xmlns:mt="urn:mtconnect.com:MTConnectDevices:0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.com:MTConnectDevices:0.9 http://www.mtconnect.org/schemas/MTConnectDevices.xsd">
+  <Header version="1.0" sender="Company MTConnect Instance" creationTime="2008-09-08T10:00:47-07:00" instanceId="101" bufferSize="100000"/>
+  <Devices>
+    <Device sampleRate="10.0" name="Company IMTS MTConnect Demonstration" iso841Class="1" uuid="company-imts-demonstration" id="id1001">
+      <Description manufacturer="Company Name" serialNumber="Serial Number"></Description>
+      <DataItems>
+        <DataItem category="EVENT" id="id1" name="alarm" type="ALARM"></DataItem>
+      </DataItems>
+      <Components>
+        <Axes name="Axes" id="id105">
+          <Components>
+            <Spindle name="S" id="id101">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id3" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id102">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id4" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id103">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id6" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Z" id="id104">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id8" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="id106">
+          <DataItems>
+            <DataItem category="EVENT" id="id10" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT" id="id11" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT" id="id12" name="mode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT" id="id13" name="program" type="PROGRAM"></DataItem>
+          </DataItems>
+        </Controller>
+        <Power name="power" id="id107">
+          <DataItems>
+            <DataItem category="EVENT" id="id14" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+  </Devices>
+</mt:MTConnectDevices>

@@ -1,0 +1,40 @@
+Dim WshShell, oExec, sCmd
+Dim objFSO, objFile, strFolder
+
+
+dim servicename :  servicename  = "MTCService4Opc"
+dim servicepath :  servicepath  = "C:\MTCService4Opc\"
+
+
+Set WshShell = CreateObject("WScript.Shell")
+
+
+strPath = Wscript.ScriptFullName
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+Set objFile = objFSO.GetFile(strPath)
+servicepath  = objFSO.GetParentFolderName(objFile)  & "\"
+
+
+
+servicename = Inputbox( "Service Name:", "Setup", "MTCService4Opc")
+if servicename = ""  Then
+	Wscript.Quit(0)
+End if
+
+
+
+function run(byval cmd)
+	'msgbox " run" & cmd
+	oExec = WshShell.Run( cmd,1,true )
+end function
+
+
+sCmd = "sc.exe stop" & servicename 
+run sCmd
+
+sCmd = "sc.exe delete " & servicename 
+run sCmd
+
+
+

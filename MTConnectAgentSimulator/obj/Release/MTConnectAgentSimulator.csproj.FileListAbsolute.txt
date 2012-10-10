@@ -1,0 +1,16 @@
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\Devices.xml
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\mtcagent.ini
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\mtcagent.xsd
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\MTConnectAgentSimulator.exe.config
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\MTConnectAgentSimulator.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\MTConnectAgentSimulator.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\MTConnectAgentCore.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\Novell.Directory.Ldap.dll
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\bin\Release\MTConnectAgentCore.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\MTConnectAgentSimulator.Form1.resources
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\MTConnectAgentSimulator.Properties.Resources.resources
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\MTConnectAgentSimulator.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\MTConnectAgentSimulator.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTConnectAgentSimulator\obj\Release\GenerateResource-ResGen.write.1.tlog

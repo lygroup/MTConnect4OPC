@@ -1,0 +1,7 @@
+9/21/2010 3:32:06 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+MT Connect Agent create or configuration Error: Validating Devices.xml Failed.
+
+9/21/2010 3:33:56 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
+Stop MTConnect Service9/21/2010 3:34:17 PM

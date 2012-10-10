@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mt:MTConnectDevices  xmlns:mt="urn:mtconnect.com:MTConnectDevices:0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.com:MTConnectDevices:0.9 http://www.mtconnect.org/schemas/MTConnectDevices.xsd">
+  <Header version="1.0" sender="NIST MTConnect Instance" creationTime="2008-09-08T10:00:47-07:00" instanceId="101" bufferSize="100000"/>
+  <Devices>
+    <Device sampleRate="10.0" name="Mazak1" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="id10001">
+      <Description manufacturer="Mazak" serialNumber="00001"></Description>
+      <Components>
+        <Axes name="Axes" id="id10101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id10120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+            <DataItem category="SAMPLE" id="id101211" name="path_feedrateovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id10111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id10122" name="Slod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id10123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id10124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id10112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10134" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10135" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10136" name="Xlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id10113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10146" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10147" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10148" name="Ylod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Linear>
+            <Linear name="Z" id="id10114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10158" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10159" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10150" name="Zlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+
+              </DataItems>
+            </Linear>
+            <Rotary name="A" id="id10115">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10160" name="Adeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10161" name="Afrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10162" name="Alod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="B" id="id10116">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10170" name="Bdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10171" name="Bfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10172" name="Blod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="C" id="id10117">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10180" name="Cdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10181" name="Cfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10182" name="Clod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="id10201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id10211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id10212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id10213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id10214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id10215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id10216" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT"  id="id10217" name="Tool_number" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id10218" name="Tool_suffix" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id10219" name="Tool_group" type="CODE"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id10301">
+          <DataItems>
+            <DataItem category="EVENT" id="id10311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak2" iso841Class="1" uuid="nist-opcda-net-2-mt-connect3" id="id20001">
+      <Description manufacturer="Mazak" serialNumber="00002"></Description>
+      <Components>
+        <Axes name="Axes" id="id20101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id20120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+            <DataItem category="SAMPLE" id="id201211" name="path_feedrateovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id20111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id20122" name="Slod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id20123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id20124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id20112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20134" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20135" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20136" name="Xlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id20113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20146" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20147" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20148" name="Ylod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Linear>
+            <Linear name="Z" id="id20114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20158" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20159" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20150" name="Zlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+
+              </DataItems>
+            </Linear>
+            <Rotary name="A" id="id20115">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20160" name="Adeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20161" name="Afrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20162" name="Alod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="B" id="id20116">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20170" name="Bdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20171" name="Bfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20172" name="Blod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="C" id="id20117">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20180" name="Cdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20181" name="Cfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20182" name="Clod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="id20201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id20211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id20212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id20213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id20214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id20215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id20216" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT"  id="id20217" name="Tool_number" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id20218" name="Tool_suffix" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id20219" name="Tool_group" type="CODE"></DataItem>
+       </DataItems>
+        </Controller>
+        <Power name="power" id="id20301">
+          <DataItems>
+            <DataItem category="EVENT" id="id20311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak3" iso841Class="1" uuid="nist-opcda-net-2-mt-connect3" id="id30001">
+      <Description manufacturer="Mazak" serialNumber="00003"></Description>
+      <Components>
+        <Axes name="Axes" id="id30101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id30120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+            <DataItem category="SAMPLE" id="id301211" name="path_feedrateovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id30111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id30122" name="Slod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id30123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id30124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id30112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30134" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30135" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30136" name="Xlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id30113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30146" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30147" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30148" name="Ylod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Linear>
+            <Linear name="Z" id="id30114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30158" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30159" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30150" name="Zlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+
+              </DataItems>
+            </Linear>
+            <Rotary name="A" id="id30115">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30160" name="Adeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30161" name="Afrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30162" name="Alod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="B" id="id30116">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30170" name="Bdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30171" name="Bfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30172" name="Blod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="C" id="id30117">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30180" name="Cdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30181" name="Cfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30182" name="Clod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="id30201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id30211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id30212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id30213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id30214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id30215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id30216" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT"  id="id30217" name="Tool_number" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id30218" name="Tool_suffix" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id30219" name="Tool_group" type="CODE"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id30301">
+          <DataItems>
+            <DataItem category="EVENT" id="id30311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak4" iso841Class="1" uuid="nist-opcda-net-2-mt-connect4" id="id40001">
+      <Description manufacturer="Mazak" serialNumber="00004"></Description>
+      <Components>
+        <Axes name="Axes" id="id40101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id40120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+            <DataItem category="SAMPLE" id="id401211" name="path_feedrateovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id40111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id40122" name="Slod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id40123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id40124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id40112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40134" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40135" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40136" name="Xlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id40113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40146" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40147" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40148" name="Ylod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Linear>
+            <Linear name="Z" id="id40114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40158" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40159" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40150" name="Zlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+
+              </DataItems>
+            </Linear>
+            <Rotary name="A" id="id40115">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40160" name="Adeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40161" name="Afrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40162" name="Alod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="B" id="id40116">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40170" name="Bdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40171" name="Bfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40172" name="Blod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="C" id="id40117">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40180" name="Cdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40181" name="Cfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40182" name="Clod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="id40201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id40211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id40212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id40213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id40214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id40215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id40216" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT"  id="id40217" name="Tool_number" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id40218" name="Tool_suffix" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="id40219" name="Tool_group" type="CODE"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id40301">
+          <DataItems>
+            <DataItem category="EVENT" id="id40311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+  </Devices>
+</mt:MTConnectDevices>

@@ -1,0 +1,295 @@
+﻿
+
+
+ 
+Home > View Post 
+Logging Levels and how to use them
+
+Continuing our recent logging theme, I want to talk about the different logging levels and some guidance on how to use them. Most logging frameworks (EntLib, log4net, nlog etc) support some kind of logging level or severity, where each individual log entry is marked at a certain level such as "Warning", "Error" or "Information". Not only is this great for ranking the importance of a particular entry, it can also be used to control the amount of logging making its way through to your log repository of choice. 
+
+If you've heard me talk about this in the past then you've probably heard the volume control analogy - if there's just too much noise at the "Information" level you can always turn the volume down to "Error". Maybe you want to write all entries at "Information" volume level to your database but for anything of "Error" or above, you'd also like an e-mail. All the logging frameworks listed support this scenario. 
+
+
+http://www.thejoyofcode.com/Logging_Levels_and_how_to_use_them.aspx
+log4net and nlog share the same level structure with the following entries (in ascending priority): Debug, Information, Warn, Error and Fatal. Just five to worry about and easy to provide guidance for but perhaps not as granular as their little brother... Enterprise Library is built upon System.Diagnostics (part of the .NET Framework) and therefore uses the TraceEventType enumeration which has the following values: Transfer, Resume, Suspend, Stop, Start, Verbose, Information, Warning, Error and Critical. 
+In a previous post 'Unit testing a logging wrapper', we talked about wrapping your logging framework du jour and looked at two reasons for doing this: portability to a different framework and simplifying the API. For these reasons, I usually create my own log level enumeration to maintain ownership of the API surface and, in the past, I've followed log4net and nlog's lead with just five logging levels*. Here's how I use them: 
+•Debug
+This is the most verbose logging level (maximum volume setting). I usually consider Debug to be out-of-bounds for a production system and used it only for development and testing. I prefer to aim to get my logging levels just right so I have just enough information and endeavour to log this at the Information level or above.
+•Information
+The Information level is typically used to output information that is useful to the running and management of your system. Information would also be the level used to log Entry and Exit points in key areas of your application. However, you may choose to add more entry and exit points at Debug level for more granularity during development and testing.
+•Warning
+Warning is often used for handled 'exceptions' or other important log events. For example, if your application requires a configuration setting but has a default in case the setting is missing, then the Warning level should be used to log the missing configuration setting.
+•Error
+Error is used to log all unhandled exceptions. This is typically logged inside a catch block at the boundary of your application.
+•Fatal
+Fatal is reserved for special exceptions/conditions where it is imperative that you can quickly pick out these events. I normally wouldn't expect Fatal to be used early in an application's development. It's usually only with experience I can identify situations worthy of the FATAL moniker experience do specific events become worth of promotion to Fatal. After all, an error's an error.
+
+
+
+===================================================================================================
+RETURN HRESULT FROM BAD AGENT EXCEPTINO TO DISTINGUISH
+          catch (Exception e)
+            {
+                LogMessage("StoreEvent Exception: " + e.Message, LogLevel.INFORMATION);
+
+                // If its bad MTConnect device data or similar break gracefully
+                int hr = Marshal.GetHRForException(e);
+                if (hr == AgentException.E_INVALIDARG || hr == AgentException.E_BADCATEGORY || hr == AgentException.E_BADALARMDATA)
+                    return;
+                throw e;
+            }
+===================================================================================================
+DCOM NIGHTMARE
+
+
+http://www.opcfoundation.org/forum/viewtopic.php?p=11568
+
+using System; 
+using System.Collections.Generic; 
+using System.Text; 
+using OpcCom; 
+using OpcRcw.Comn; 
+using OpcCom.Da20; 
+using Opc.Da; 
+using System.Runtime.InteropServices; 
+
+namespace test 
+{ 
+    class Program 
+    { 
+        [MTAThread] 
+        static void Main(string[] args) 
+        { 
+            
+   Interop.CoInitializeSecurity(IntPtr.Zero,-1,null,IntPtr.Zero,Interop.RPC_C_AUTHN_LEVEL_NONE ,Interop.RPC_C_IMP_LEVEL_IDENTIFY,IntPtr.Zero,Interop.EOAC_NONE,IntPtr.Zero); 
+    Interop.COSERVERINFO serverInfo; 
+   serverInfo.dwReserved1 = 0; 
+   serverInfo.pwszName = "10.30.5.89"; 
+   serverInfo.pAuthInfo = IntPtr.Zero; 
+   serverInfo.dwReserved2 = 0; 
+   Interop.MULTI_QI[] mqiEntry=new Interop.MULTI_QI[1]; 
+
+    GCHandle hIID = GCHandle.Alloc(Interop.IID_IUnknown/*iserverlist*/, GCHandleType.Pinned); 
+   mqiEntry[0].iid = hIID.AddrOfPinnedObject(); 
+   mqiEntry[0].pItf = null; 
+   mqiEntry[0].hr = 0; 
+
+   Guid iopcenum; 
+   iopcenum=new Guid("13486D51-4821-11D2-A494-3CB306C10000"); 
+
+   Interop.CoCreateInstanceEx(ref iopcenum,null,Interop.CLSCTX_REMOTE_SERVER,ref serverInfo,1,mqiEntry); 
+
+   if (mqiEntry[0].hr==0) 
+   { 
+         IOPCServerList2 test=(IOPCServerList2)mqiEntry[0].pItf; 
+      { 
+         Guid catid=new Guid("63D5F432-CFE4-11d1-B2C8-0060083BA1FB"); 
+
+
+
+               IOPCEnumGUID enumerator = null; 
+
+                test.EnumClassesOfCategories( 
+                  1, 
+                  new Guid[] { catid }, 
+                  0, 
+                  null, 
+                  out enumerator); 
+
+      } 
+   } 
+    Console.ReadLine(); 
+======================================
+                COAUTHINFO authInfo = new COAUTHINFO();
+                authInfo.dwAuthnSvc = RPC_C_AUTHN_WINNT;
+                authInfo.dwAuthzSvc = RPC_C_AUTHZ_NONE;
+                authInfo.pwszServerPrincName = IntPtr.Zero;
+                authInfo.dwAuthnLevel = RPC_C_AUTHN_LEVEL_CONNECT;
+                authInfo.dwImpersonationLevel = RPC_C_IMP_LEVEL_IMPERSONATE;
+                authInfo.pAuthIdentityData = (m_hIdentity.IsAllocated) ? m_hIdentity.AddrOfPinnedObject() : IntPtr.Zero;
+                authInfo.dwCapabilities = EOAC_NONE;
+
+
+http://www.pinvoke.net/default.aspx/ole32/coinitializesecurity.html 
+http://msdn.microsoft.com/en-us/library/Aa367595
+http://blogs.msdn.com/b/adioltean/archive/2004/06/18/159479.aspx
+
+public enum RpcAuthnLevel
+{
+    Default =   0,
+    None    =   1,
+    Connect =   2,
+    Call    =   3,
+    Pkt     =   4,
+    PktIntegrity  =   5,
+    PktPrivacy   =   6
+}
+
+public enum RpcImpLevel
+{
+    Default    =   0,
+    Anonymous   =   1,
+    Identify   =   2,
+    Impersonate   =   3,
+    Delegate   =   4
+}
+
+public enum EoAuthnCap
+{
+    None = 0x00,
+    MutualAuth = 0x01,
+    StaticCloaking= 0x20,
+    DynamicCloaking= 0x40,
+    AnyAuthority= 0x80,
+    MakeFullSIC= 0x100,
+    Default= 0x800,
+    SecureRefs= 0x02,
+    AccessControl= 0x04,
+    AppID= 0x08,
+    Dynamic= 0x10,
+    RequireFullSIC= 0x200,
+    AutoImpersonate= 0x400,
+    NoCustomMarshal= 0x2000,
+    DisableAAA= 0x1000
+} 
+
+[System.Runtime.InteropServices.DllImport("ole32.dll")]
+public static extern int CoInitializeSecurity( IntPtr pVoid, int
+    cAuthSvc,IntPtr asAuthSvc, IntPtr pReserved1, RpcAuthnLevel level,
+    RpcImpLevel impers,IntPtr pAuthList, EoAuthnCap dwCapabilities, IntPtr
+    pReserved3 ); 
+
+
+/// <summary>
+/// The main entry point for the application.
+/// Do not set STAThread since CoInitializeSecurity is called 
+/// with to high security automatically (and it can only be called once).
+/// </summary>
+//[STAThread]
+static void Main() 
+{
+    // Set threading apartment
+    System.Threading.Thread.CurrentThread.ApartmentState = ApartmentState.STA; 
+    CoInitializeSecurity( IntPtr.Zero, -1, IntPtr.Zero,
+        IntPtr.Zero,RpcAuthnLevel.None ,
+        RpcImpLevel.Impersonate,IntPtr.Zero, EoAuthnCap.None, IntPtr.Zero ); 
+
+    Application.MainForm = new MainForm();
+    System.Windows.Forms.Application.Run(Application.MainForm);
+}
+
+
+
+ am writing an HTTP server in C#.
+
+When I try to execute the function HttpListener.Start() I get an HttpListenerException saying "Access Denied".
+
+When I run the app in admin mode in windows 7 it works fine.
+
+
+http://stackoverflow.com/questions/4019466/httplistener-access-denied-c-windows-7
+
+
+
+----------------------------------------------------
+DETECTION OF PORT 80 CONFLICT
+----------------------------------------------------
+
+Netstat -a -n -o -b 
+
+
+
+
+
+----------------------------------------------------
+APP.CONFIG service reset every nite at midnite
+----------------------------------------------------
+
+    <add key="ServiceUser" value=".\auduser" />
+    <add key="ServicePassword" value="SUNRISE840d" />
+    <add key="ResetTime" value="1" />  // 1 day
+       <add key="ResetTime" value="00:02:00" />  // 2 minutes for testing...
+
+--------------
+
+Key C# Install service info: 
+http://www.codeproject.com/KB/cs/csharpwindowsserviceinst.aspx?display=Print
+
+--------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+----------------------------------------------------
+Garbage Collection
+----------------------------------------------------
+               gcCount++;
+                if (gcCount > 60)
+                {
+                    System.GC.Collect();//In addition, to request that finalizers be run on unreferenced objects, call: 
+                    long nTotMemory = System.GC.GetTotalMemory(true);
+                    LogMessage("Total Memory " + Convert.ToString(nTotMemory) + " \n", -1);
+                    gcCount = 0;
+                }
+
+
+----------------------------------------------------
+SCRIPTING
+----------------------------------------------------
+DOS Commands  
+http://www.computerhope.com/cmd.htm
+
+
+PsExec:
+http://technet.microsoft.com/en-us/sysinternals/bb897553.aspx
+
+SCript Center:
+http://gallery.technet.microsoft.com/ScriptCenter/en-US/8ecfdbfa-dbfa-4f8b-9227-e285bcdcf75f?persist=True
+--------------
+Myfile = "\\ServerShare\ProgramFolder\Upgraded.txt"
+
+
+Set textstream = fso.OpenTextFile(myFile, 8, True)
+Textstream.WriteLine("**********************")
+Textstream.WriteLine("ComputerName: " & strComputer)
+Textstream.Close
+
+Set fso = CreateObject("Scripting.FileSystemObject")
+src = "\\ServerShare\ProgramFolder\File.msi"
+dest = "\\"& strComputer &"\C$\VViewer2003.msi"
+fso.copyfile src, dest, true
+
+Set objShell =  CreateObject("WScript.Shell")
+cmd = "cmd /c psexec C:\VViewer2003.msi"
+objShell.Run cmd, 1, True
+
+
+             
+Run the Visual Studio .NET Command Prompt and change directories to your TimeServerService project’s bin\Debug directory (or Release if you happened to build in Release mode). Type the following command:
+
+installutil TimeService.exe
+
+You should see a lot of stuff scroll by on the screen about the installation, and hopefully at the end you will see a message indicating that the service was successfully installed. Once the service is installed, go ahead and start it:
+
+net start TimeServerService
+
+You should see a message that the services are starting… and starting… and still starting. We forgot something! We need to fire off the Start() method in a separate thread so the OnStart() method doesn’t lead us into a nasty blocking loop. Add a reference to the System.Threading namespace at the top of your service class file, like this:
+
+using System.Threading;
+
+Change the OnStart() method to use a Thread rather than directly calling Start(), like so: 
+
+       protected override void OnStart(string[] args)
+       {
+         this.isStopped = false;
+ 
+         Thread t = new Thread(new ThreadStart(this.Start));
+         t.Start();
+       }
+Build the project. Before we can try to run the service again, we need to uninstall the old version by using this command:
+
+installutil /u TimeService.exe

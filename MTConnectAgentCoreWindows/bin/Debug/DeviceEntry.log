@@ -1,0 +1,113 @@
+<Log> 11/14/2008 10:43:37 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/14/2008 10:43:37 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/14/2008 10:43:37 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/14/2008 10:43:37 AM: LDAP DeviceEntry Finished </Log>
+<Log> 11/14/2008 10:43:38 AM: Agent Start Failed.  System.IO.FileNotFoundException: Could not load file or assembly 'System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at MTConnectAgentCore.Data.loadConfig()
+   at MTConnectAgentCore.Agent.Start() in C:\eclipse3.1\eclipse\workspace\MTConnect\Agent\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 37
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+ </Log>
+<Log> 11/14/2008 10:44:56 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/14/2008 10:44:56 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/14/2008 10:44:56 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/14/2008 10:44:56 AM: LDAP DeviceEntry Finished </Log>
+<Log> 11/14/2008 10:44:56 AM: Agent Start Failed.  System.IO.FileNotFoundException: Could not load file or assembly 'System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' or one of its dependencies. The system cannot find the file specified.
+File name: 'System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at MTConnectAgentCore.Data.loadConfig()
+   at MTConnectAgentCore.Agent.Start() in C:\eclipse3.1\eclipse\workspace\MTConnect\Agent\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 37
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+ </Log>
+<Log> 11/14/2008 10:52:49 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/14/2008 10:52:49 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/14/2008 10:52:49 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/14/2008 10:52:49 AM: LDAP DeviceEntry Finished </Log>
+<Log> 11/14/2008 11:19:37 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/14/2008 11:19:37 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/14/2008 11:19:37 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/14/2008 11:19:37 AM: LDAP DeviceEntry Finished </Log>
+<Log> 19/11/2008 9:25:30 : LDAP DeviceEntry Starting </Log>
+<Log> 19/11/2008 9:25:30 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 19/11/2008 9:25:30 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 19/11/2008 9:25:30 : LDAP DeviceEntry Finished </Log>
+<Log> 19/11/2008 10:18:15 : LDAP DeviceEntry Starting </Log>
+<Log> 19/11/2008 10:18:15 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 19/11/2008 10:18:15 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 19/11/2008 10:18:15 : LDAP DeviceEntry Finished </Log>
+<Log> 20/11/2008 8:09:38 : LDAP DeviceEntry Starting </Log>
+<Log> 20/11/2008 8:09:38 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 20/11/2008 8:09:38 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 20/11/2008 8:09:38 : LDAP DeviceEntry Finished </Log>
+<Log> 21/11/2008 12:37:08 : LDAP DeviceEntry Starting </Log>
+<Log> 21/11/2008 12:37:08 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 21/11/2008 12:37:08 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 21/11/2008 12:37:08 : LDAP DeviceEntry Finished </Log>
+<Log> 21/11/2008 4:18:48 : LDAP DeviceEntry Starting </Log>
+<Log> 21/11/2008 4:18:48 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 21/11/2008 4:18:48 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 21/11/2008 4:18:48 : LDAP DeviceEntry Finished </Log>
+<Log> 21/11/2008 6:36:17 : LDAP DeviceEntry Starting </Log>
+<Log> 21/11/2008 6:36:17 : ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 21/11/2008 6:36:17 : DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 21/11/2008 6:36:17 : LDAP DeviceEntry Finished </Log>
+<Log> 11/25/2008 11:09:49 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/25/2008 11:09:49 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/25/2008 11:09:49 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/25/2008 11:09:49 AM: LDAP DeviceEntry Finished </Log>
+<Log> 11/26/2008 10:44:53 AM: LDAP DeviceEntry Starting </Log>
+<Log> 11/26/2008 10:44:53 AM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 11/26/2008 10:44:53 AM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 11/26/2008 10:44:53 AM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 3:46:04 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 3:46:05 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 3:46:05 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 3:46:05 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 3:59:50 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 3:59:50 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 3:59:50 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 3:59:50 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 3:59:50 PM: Agent Start Failed.  System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at MTConnectAgentCore.HttpServer.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\HttpServer.cs:line 45
+   at MTConnectAgentCore.Agent.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 43 </Log>
+<Log> 3/16/2009 4:00:43 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 4:00:43 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 4:00:43 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 4:00:43 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 4:00:52 PM: Agent Start Failed.  System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at MTConnectAgentCore.HttpServer.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\HttpServer.cs:line 44
+   at MTConnectAgentCore.Agent.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 43 </Log>
+<Log> 3/16/2009 4:02:16 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 4:02:16 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 4:02:16 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 4:02:16 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 4:02:21 PM: Agent Start Failed.  System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.FormatError()
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at MTConnectAgentCore.HttpServer.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\HttpServer.cs:line 44
+   at MTConnectAgentCore.Agent.Start() in C:\Program Files\NIST\proj\MTConnect\src\MTConnectAgent\MTConnectAgentCore\Agent.cs:line 43 </Log>
+<Log> 3/16/2009 4:07:14 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 4:07:14 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 4:07:14 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 4:07:14 PM: LDAP DeviceEntry Finished </Log>
+<Log> 3/16/2009 4:07:26 PM: LDAP DeviceEntry Starting </Log>
+<Log> 3/16/2009 4:07:26 PM: ********** Starting LDAP DeviceEntry ************* </Log>
+<Log> 3/16/2009 4:07:26 PM: DeviceEntry:Use of LDAP not selected (useLDAP is false) </Log>
+<Log> 3/16/2009 4:07:26 PM: LDAP DeviceEntry Finished </Log>

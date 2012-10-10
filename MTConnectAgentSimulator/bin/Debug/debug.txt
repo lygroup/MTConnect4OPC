@@ -1,0 +1,8 @@
+12/30/2009 2:21:09 PM
+Agent Stopped
+
+Error An error occurred loading a configuration file: The parameter 'exePath' is invalid.
+Parameter name: exePath
+Agent Start Failed.
+The type initializer for 'MTConnectAgentCore.DeviceEntry' threw an exception.
+Agent Stopped

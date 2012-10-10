@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mt:MTConnectDevices  xmlns:mt="urn:mtconnect.com:MTConnectDevices:0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.com:MTConnectDevices:0.9 http://www.mtconnect.org/schemas/MTConnectDevices.xsd">
+  <Header version="1.0" sender="NIST MTConnect Instance" creationTime="2008-09-08T10:00:47-07:00" instanceId="101" bufferSize="100000"/>
+  <Devices>
+    <Device sampleRate="10.0" name="Mazak1" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="id10001">
+      <Description manufacturer="Mazak" serialNumber="00001"></Description>
+      <Components>
+        <Axes name="Axes" id="id10101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id10120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id10111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+ 		<DataItem category="SAMPLE" id="id10122" name="Sload" type="LOAD" units="PERCENT"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id10112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10124" name="Xact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10125" name="Xcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id10113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10126" name="Yact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10127" name="Ycom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Z" id="id10114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id10128" name="Zact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id10129" name="Zcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+          </Components>
+
+        </Axes>
+        <Controller name="Controller" id="id10201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id10211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id10212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id10213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id10214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id10215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id10216" name="block" type="BLOCK"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id10301">
+          <DataItems>
+            <DataItem category="EVENT" id="id10311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak2" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="id20001">
+      <Description manufacturer="Mazak" serialNumber="00002"></Description>
+      <Components>
+        <Axes name="Axes" id="id20101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id20120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id20111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20121" name="spindle_speed" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+ 		<DataItem category="SAMPLE" id="id20122" name="Sload" type="LOAD" units="PERCENT"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id20112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20124" name="Xact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20125" name="Xcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id20113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20126" name="Yact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20127" name="Ycom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Z" id="id20114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id20128" name="Zact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id20129" name="Zcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+          </Components>
+
+        </Axes>
+        <Controller name="Controller" id="id20201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id20211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id20212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id20213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id20214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id20215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id20216" name="block" type="BLOCK"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id20301">
+          <DataItems>
+            <DataItem category="EVENT" id="id20311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak3" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="id30001">
+      <Description manufacturer="Mazak" serialNumber="00003"></Description>
+      <Components>
+        <Axes name="Axes" id="id30101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id30120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id30111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+ 		<DataItem category="SAMPLE" id="id30122" name="Sload" type="LOAD" units="PERCENT"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id30112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30124" name="Xact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30125" name="Xcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id30113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30126" name="Yact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30127" name="Ycom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Z" id="id30114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id30128" name="Zact" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id30129" name="Zcom" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+          </Components>
+
+        </Axes>
+        <Controller name="Controller" id="id30201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id30211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id30212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id30213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id30214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id30215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id30216" name="block" type="BLOCK"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id30301">
+          <DataItems>
+            <DataItem category="EVENT" id="id30311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+    <Device sampleRate="10.0" name="Mazak4" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="id40001">
+      <Description manufacturer="Mazak" serialNumber="00004"></Description>
+      <Components>
+        <Axes name="Axes" id="id40101">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="id40120" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="id40111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40121" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+ 		<DataItem category="SAMPLE" id="id40122" name="Sload" type="LOAD" units="PERCENT"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="id40112">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40124" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40125" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="id40113">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40126" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40127" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Z" id="id40114">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id40128" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="id40129" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+          </Components>
+
+        </Axes>
+        <Controller name="Controller" id="id40201">
+          <DataItems>
+            <DataItem category="EVENT"  id="id40211" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="id40212" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="id40213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="id40214" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="id40215"  name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT"  id="id40216" name="block" type="BLOCK"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="id40301">
+          <DataItems>
+            <DataItem category="EVENT" id="id40311" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>
+
+  </Devices>
+</mt:MTConnectDevices>

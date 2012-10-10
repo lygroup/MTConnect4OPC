@@ -1,0 +1,391 @@
+﻿    <add key="devices" value="Mazak1,Mazak2,Mazak3,Mazak4" />
+    <add key="ipaddrs" value="tangerine, tangerine, tangerine, tangerine" />
+    <add key="ports" value="7878,7879,7880, 7881" />
+
+
+
+
+REMOVING OLD DATA:
+
+       internal static XElement createDataStorage(XElement _probe)
+        {
+            XElement devices = new XElement(_probe.Element("Devices"));
+            return devices;
+        }
+
+
+        datastorage = DataUtil.createDataStorage(probe); //clone of probe without its name space
+
+
+
+   <add key="devices" value="Mazak1,Mazak2,Mazak3,Mazak4" />
+    <add key="ipaddrs" value="tangerine, tangerine, tangerine, tangerine" />
+    <add key="ports" value="7878,7879,7880, 7881" />
+
+
+
+    <add key="devices" value="Mazak1" />
+    <add key="ipaddrs" value="192.168.16.100" />
+    <add key="ports" value="7878" />
+    
+http://127.0.0.1/sample?path=//Axes//DataItem[@type="SPINDLE_SPEED"and@subType="ACTUAL"]&from=0&count=1 
+
+http://127.0.0.1/current?path=//Axes//DataItem[@type="SPINDLE_SPEED"and@subType="ACTUAL"] 
+
+"//Axes//DataItem[@type=\"SPINDLE_SPEED\"and@subType=\"ACTUAL\"]"
+
+            System.IO.StreamWriter sw = System.IO.File.AppendText(
+                "DeviceEntry.log");
+                
+                
+            System.Diagnostics.Debugger.Break();
+            
+ http://127.0.0.1/sample?path=//Axes//DataItem[@type="SPINDLE_SPEED"and@subType="ACTUAL"]&from=0&count=100           
+            
+http://127.0.0.1/sample?path=//Axes//DataItem[@type="SPINDLE_SPEED"and@subType="ACTUAL"]&from=0&count=100       
+
+Additional information: Cross-thread operation not valid: Control 'richTextBox1' accessed from a thread other than the thread it was created on.
+A first chance exception of type 'System.IO.FileNotFoundException' occurred in mscorlib.dll
+
+Additional information: Could not load file or assembly 'MTConnectAgentCore.XmlSerializers, Version=0.4.0.22519, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+
+Namespace:  System.Xml.Serialization
+Assembly:  System.Xml.Serialization (in System.Xml.Serialization.dll)
+
+
+
+    <add key="ipaddrs" value="129.6.72.123, agent.mtconnect.org, 192.168.16.101" />
+    <add key="ipaddrs" value=" 127.0.0.1, agent.mtconnect.org, 127.0.0.1" />
+ 
+     <add key="devices" value="Mazak1,Mazak2,Mazak3,Mazak4" />
+    <add key="ipaddrs" value="168.192.1.9,168.192.1.10,168.192.1.11,168.192.1.12" />
+
+    <add key="devices" value="Nist, GaTech, LinuxCNC" />
+    <add key="ipaddrs" value="129.6.72.123, agent.mtconnect.org, 127.0.0.1" />
+    <add key="ports" value="7878,7878,7878" />
+
+    <add key="devices" value="LinuxCNC" />
+    <add key="ipaddrs" value="192.168.16.101" />
+    <add key="ports" value="7878" />
+
+
+        <Controller name="Controller" id="id50201">
+          <DataItems>
+            <DataItem category="EVENT" id="id50211" name="line" type="LINE"><Data timestamp="2009-05-27T23:10:37.890621" sequence="3" partId="" workPieceId="">112</Data></DataItem>
+            <DataItem category="EVENT" id="id50212" name="execution" type="EXECUTION"><Data timestamp="2009-05-27T23:10:37.890621" sequence="2" partId="" workPieceId="">ACTIVE</Data></DataItem>      
+            <DataItem category="EVENT" id="id50213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT" id="id50214" name="program" type="PROGRAM"><Data timestamp="2009-05-27T23:10:37.890621" sequence="10" partId="" workPieceId="">/home/mtconnect/simulator/spiral.ngc</Data></DataItem>
+            <DataItem category="EVENT" id="id50215" name="alarm" type="ALARM"></DataItem>
+            <DataItem category="EVENT" id="id50216" name="block" type="BLOCK"><Data timestamp="2009-05-27T23:10:37.890621" sequence="11" partId="" workPieceId="">x0.063336 y1.788879</Data></DataItem>
+        </DataItems>
+        </Controller>
+        
+http://127.0.0.1/LinuxCNC/event?path=//Power
+
+http://127.0.0.1/LinuxCNC/sample?path=//Power
+
+http://127.0.0.1/LinuxCNC/sample?path=//ControllerMode
+http://127.0.0.1/LinuxCNC/sample?path=//Controller[@name=mode] 
+
+
+http://127.0.0.1/LinuxCNC/current?path=//Controller//DataItems/DataItem[@type="CONTROLLER_MODE"] 
+
+
+127.0.0.1/version
+  <MTConnectAgent version="0.4.0.23114" /> 
+  
+ -------------------------
+June 4 2009  
+                  this.buffersize = Int32.Parse(header.Attribute("bufferSize").Value);
+was 100,000
+ !!!!!!!!!!
+ <Header version="1.0" sender="NIST MTConnect Instance" creationTime="2008-09-08T10:00:47-07:00" instanceId="101" bufferSize="100000"/>
+
+ -------------------------
+           aTimer.Elapsed += new System.Timers.ElapsedEventHandler(OnTimedEvent);
+            aTimer.Interval = _cycletime;
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;
+            aTimer.Enabled = false;
+            
+            
+   
+        private void OnTimedEvent(object source, System.Timers.ElapsedEventArgs e)
+        {
+            int i;
+            try
+            {
+                if (!state)
+                    Start();
+                if (!state)
+                    return;
+
+                for (i = 0; i < agent.shdrobjs.Length; i++)
+                {
+                    agent.Cycle(i);
+                    agent.Start();
+                }
+               
+            }
+            catch (Exception ex)
+            {
+                Debug.Print("Timer exception " + ex.Message);
+
+            }
+
+        }
+         
+            
+  -------------------------
+          
+     <add key="devices" value="Nist, GaTech, Mazak3, Mazak4" />
+    <add key="ipaddrs" value="129.6.72.123, agent.mtconnect.org, 192.168.16.100, agent.mtconnect.org" />
+    <add key="ports" value="7878, 7878, 7878, 7878" />
+    <add key="ipport" value="80" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+
+
+    <add key="devices" value="Nist" />
+    <add key="ipaddrs" value="192.168.16.102" />
+    <add key="ports" value="7878" />
+    <add key="ipport" value="80" />
+
+
+
+
+        bool TestPort(IPAddress hostIP, int listenPort)
+        {
+            hostIP = IPAddress.Parse("127.0.0.1");
+            listenPort = 80;
+
+            Socket listenSocket = new Socket(AddressFamily.InterNetwork,
+                                 SocketType.Stream,
+                                 ProtocolType.Tcp);
+            //server socket options
+            listenSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.KeepAlive, 1);
+            IPEndPoint ep = new IPEndPoint(hostIP, listenPort);
+            try
+            {
+                listenSocket.Bind(ep);
+
+            }
+            catch (SocketException se)
+            {
+                Console.Write("SocketException Error: {0}", se.Message);
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.Write("Error: {0}", e.Message);
+                return false;
+            }
+            listenSocket.Close();
+
+            return true;
+
+        }
+        void EnumerateProcesses()
+        {
+            foreach (Process p in Process.GetProcesses())
+            {
+                Console.WriteLine(p.ProcessName);
+                try
+                {
+                    Console.WriteLine("   PID:      " + p.Id);
+                    Console.WriteLine("   Started:  " + p.StartTime);
+                    Console.WriteLine("   Memory:   " + p.WorkingSet64);
+                    Console.WriteLine("   CPU time: " + p.TotalProcessorTime);
+                    Console.WriteLine("   Threads:  " + p.Threads.Count);
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+        }
+--------------------------------------------------------------
+#if JUNK
+        public void Cycle(int k)
+        {
+            ShdrObj shdrobj = shdrobjs[k];
+            String device = shdrobjs[k].device;
+            String line = null;
+           // shdrobj.messages = "";
+            // this a reference 
+            try
+            {
+                if (shdrobj.attempts > 0)
+                {
+                    shdrobj.attempts--;
+                    Thread.Sleep(100);
+                    return;
+
+                }
+
+                //if (!TestSHDRConnection(shdrobj.host))
+                //{
+
+                //    messages += "Ping failed for " + shdrobj.host + "\n";
+                //    throw new Exception("Ping failed for " + shdrobj.host);
+
+                //}
+
+                if (shdrobj.ipep == null)
+                {
+                    shdrobj.ipep = new IPEndPoint(shdrobj.addr, shdrobj.port);
+                }
+
+                //bool bConnected = TestSocketConnection(ipep,  port, 100);
+                //if (!bConnected)
+                if (shdrobj.server == null)
+                {
+                    shdrobj.attempts = 30;
+
+                    shdrobj.server = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                    shdrobj.server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 1000);
+                    shdrobj.server.Connect(shdrobj.ipep);
+                    shdrobj.attempts = 0;
+                }
+
+                if (shdrobj.ns == null)
+                    shdrobj.ns = new NetworkStream(shdrobj.server);
+                if (shdrobj.sr == null)
+                    shdrobj.sr = new StreamReader(shdrobj.ns);
+                if (shdrobj.sw == null)
+                    shdrobj.sw = new StreamWriter(shdrobj.ns);
+
+                shdrobj.ns.ReadTimeout = 200;
+                shdrobj.running = 1;
+
+                if (!shdrobj.server.Connected)
+                {
+                    shdrobj.messages += "Server disconnected: for " + shdrobj.host + "\n";
+                    throw new Exception("Server disconnected");
+
+                }
+                if (shdrobj.server.Available == 0)
+                {
+                    shdrobj.messages += "No data: for " + shdrobj.host + "\n";
+                    return;
+                }
+
+                try
+                {
+                    line = shdrobj.sr.ReadLine();
+                }
+                catch (TimeoutException e)
+                {
+                    shdrobj.messages += "TimeoutException: " + e.Message + " for " + shdrobj.host + "\n";
+                    return;
+                }
+                LogMessage(line);
+
+                String[] values = line.Split('|');
+                String timestamp = values[0];
+                String item = values[1];
+
+                // Check if this is an Alarm. Alarms must be on one line.
+                if (data.isAlarm(item, device) && values.Length >= 7)
+                {
+                    String code = values[2];
+                    String nativeCode = values[3];
+                    String severity = values[4];
+                    String state = values[5];
+                    String text = values[6];
+                    //short StoreEvent(String timestamp, String deviceName, String name, String value, String partId, String workPieceId, String alarm_code, String alarm_severity, String alarm_nativecode, String alarm_state);
+                    data.StoreEvent(timestamp, device, item, text, "", "", code, severity, nativeCode, state);
+                }
+                else
+                {
+                    String value;
+                    for (int i = 1; i < values.Length; i += 2)
+                    {
+                        item = values[i];
+                        value = values[i + 1];
+
+                        try
+                        {
+                            if (data.isEvent(item, device))
+                                data.StoreEvent(timestamp, device, item, value, "", "", null, null, null, null);
+                            else
+                                data.StoreSample(timestamp, device, item, value, "", "");
+                        }
+                        catch (AgentException e)
+                        {
+                            string msg = item + "|" + value + " is ignored. " + e.Message + "\n";
+                            LogMessage(msg);
+                            shdrobj.messages +=msg;
+
+                        }
+                    }
+                    //short StoreEvent(String timestamp, String deviceName, String name, String value, String partId, String workPieceId, String alarm_code, String alarm_severity, String alarm_nativecode, String alarm_state);
+                }
+                return;
+            }
+
+
+
+            catch (ThreadAbortException e)
+            {
+                shdrobj.messages += "ThreadAbortException: " + e.Message + " for " + shdrobj.host + "\n";
+
+            }
+            catch (SocketException e)
+            {
+                shdrobj.messages += "SocketException: " + e.Message + " for " + shdrobj.host + "\n";
+
+            }
+            catch (IOException e)
+            {
+                shdrobj.messages += "IOException: " + e.Message + " for " + shdrobj.host + "\n";
+            }
+            catch (Exception e)
+            {
+                shdrobj.messages += "Exception: " + e.Message + " for " + shdrobj.host + "\n";
+            }
+
+            /////////// agent stopped or exception incurred
+            {
+                if (shdrobj.server != null && shdrobj.server.Connected)
+                {
+                    shdrobj.server.Shutdown(SocketShutdown.Both);
+                    shdrobj.server.Close();
+                }
+                shdrobj.server = null;
+
+                if (shdrobj.sr != null)
+                    shdrobj.sr.Close();
+                if (shdrobj.sw != null)
+                    shdrobj.sw.Close();
+                if (shdrobj.ns != null)
+                    shdrobj.ns.Close();
+                shdrobj.sr = null;
+                shdrobj.sw = null;
+                shdrobj.ns = null;
+
+                shdrobj.running = 0;
+            }
+
+
+
+        }
+#endif
+
+
+        //// test an ip connection
+        //private bool TestSHDRConnection(string ipaddress)
+        //{
+        //    try
+        //    {
+        //        Ping ping = new Ping();
+        //        PingReply pingreply = ping.Send(ipaddress, 500);
+        //        if (pingreply.Status != IPStatus.Success)
+        //            return false;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return false;
+        //    }
+        //    return true;
+
+        //}
