@@ -111,3 +111,128 @@ MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.19323
 MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.19323
 10/8/2012 11:49:52 AM
 MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.19323
+11/11/2012 7:20:04 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.34752
+11/11/2012 7:23:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.34752
+11/11/2012 7:26:35 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.34752
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+MT Connect Update Error: The type initializer for 'MTCService4Opc.AlarmMsgs' threw an exception.
+11/11/2012 7:31:21 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.34752
+11/11/2012 7:33:48 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35211
+Configuration Error: An item with the same key has already been added.
+11/11/2012 7:34:42 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35211
+Configuration Error: An item with the same key has already been added.
+11/11/2012 7:35:37 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35211
+Configuration Error: An item with the same key has already been added.
+11/11/2012 7:39:21 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35371
+11/11/2012 7:40:00 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35371
+11/11/2012 7:40:14 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35371
+11/11/2012 7:40:30 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35371
+11/11/2012 7:41:00 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35428
+11/11/2012 7:41:54 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35428
+11/11/2012 7:42:20 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35468
+11/11/2012 7:43:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35468
+11/11/2012 7:43:35 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35506
+11/11/2012 7:44:43 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35506
+11/11/2012 7:45:47 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35568
+11/11/2012 7:46:53 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35568
+11/11/2012 7:48:01 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35634
+11/11/2012 7:48:38 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35655
+11/11/2012 7:50:44 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35655
+11/11/2012 7:51:35 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35655
+11/11/2012 7:53:14 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35795
+11/11/2012 7:54:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.35818
+11/14/2012 8:40:21 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.37181
+11/14/2012 9:02:31 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.37872
+11/15/2012 11:27:27 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.18308
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+11/15/2012 1:49:09 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.24872
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+OPC Connect Error: Retrieving the COM class factory for remote component with CLSID {75D00AFE-DDA5-11D1-B944-9E614D000000} from machine 129.6.72.44 failed due to the following error: 80070005 129.6.72.44.
+11/15/2012 4:09:20 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+MT Connect Agent create or configuration Error: Agent Start Failed.  Please make sure port 80 is available for Agent.
+
+11/15/2012 4:10:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+MT Connect Agent create or configuration Error: Agent Start Failed.  Please make sure port 80 is available for Agent.
+
+11/15/2012 4:10:38 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+MT Connect Agent create or configuration Error: Agent Start Failed.  Please make sure port 80 is available for Agent.
+
+11/15/2012 4:10:50 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+MT Connect Agent create or configuration Error: Agent Start Failed.  Please make sure port 80 is available for Agent.
+
+11/15/2012 4:11:18 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:14:38 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:29:03 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:36:25 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:38:02 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:39:38 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29079
+11/15/2012 4:41:47 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.30034
+11/15/2012 4:55:26 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.30034

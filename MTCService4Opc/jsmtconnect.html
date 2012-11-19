@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>MTConnect Monitor Javascript </title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<style>
+P 
+{ 
+	font-family: Verdana,sans-serif;
+	FONT-SIZE: 70%; 
+	LINE-HEIGHT: 12pt;
+	MARGIN-BOTTOM: 0px; 
+	MARGIN-LEFT: 10px; 
+	MARGIN-TOP: 10px;
+}
+
+H1 
+{ 
+	BACKGROUND-COLOR: #003366; 
+	BORDER-BOTTOM: #336699 6px solid; 
+	COLOR: #ffffff; 
+	FONT-SIZE: 130%;
+	FONT-WEIGHT: normal;
+	MARGIN: 0em 0em 0em -20px; 
+	PADDING-BOTTOM: 8px;
+	PADDING-LEFT: 30px; 
+	PADDING-TOP: 16px 
+}
+table {
+ 	BACKGROUND-COLOR: #f0f0e0; 
+	BORDER-BOTTOM: #ffffff 0px solid; 
+	BORDER-COLLAPSE: collapse;
+	BORDER-LEFT: #ffffff 0px solid;
+	BORDER-RIGHT: #ffffff 0px solid;
+	BORDER-TOP: #ffffff 0px solid; 
+	FONT-SIZE: 70%;
+	MARGIN-LEFT: 10px
+  }
+
+td { 
+	BACKGROUND-COLOR: #e7e7ce; 
+	BORDER-BOTTOM: #ffffff 1px solid;
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	PADDING-LEFT: 3px 
+  } 
+th {
+	BACKGROUND-COLOR: #cecf9c;
+	BORDER-BOTTOM: #ffffff 1px solid;
+	BORDER-LEFT: #ffffff 1px solid;
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	COLOR: #000000;
+	FONT-WEIGHT: bold 
+  }
+</style>
+<script type="text/javascript">
+
+// Formatted at http://www.formatjavascript.com/ 
+function getQuerystring(key, default_) {
+    if (default_ == null)
+        default_ = "";
+    key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+    var qs = regex.exec(window.location.href);
+    if (qs == null)
+        return default_;
+    else
+        return qs[1];
+}
+
+function Lookup(key) {
+    return (this[key]);
+}
+
+function Add() {
+    for (c = 0; c < Add.arguments.length; c += 2) {
+        // Add the property 
+        this[Add.arguments[c]] = Add.arguments[c + 1];
+        // And add it to the keys array 
+        this.Keys[this.Keys.length] = Add.arguments[c];
+    }
+}
+
+function Dictionary() {
+    this.Add = Add;
+    this.Lookup = Lookup;
+    this.Keys = new Array();
+}
+
+function SetDiv(id, str) {
+    var x = document.getElementById(id);
+    x.innerHtml = str;
+}
+
+
+function nsResolver(prefix) {
+    switch (prefix) {
+        case 'xsi':
+            return 'http://www.w3.org/2001/XMLSchema-instance';
+        case 'm':
+            return 'http://www.mtconnect.org/schemas/MTConnectStreams_1.2.xsd';
+        default:
+            return 'http://www.mtconnect.org/schemas/MTConnectStreams_1.2.xsd';
+    }
+}
+
+
+function updatetable(machine) {
+    if(machine==="") machine="127.0.0.1";
+    var tmp = "";
+    
+    var xhttp;
+   if(window.XMLHttpRequest){
+                    xhttp = new XMLHttpRequest();
+                }
+                else{
+                    xhttp= new ActiveXObject("Micrsoft.XMLHTTP");
+                }
+
+    xhttp.preserveWhiteSpace = true;
+    xhttp.open("GET", "http://" + machine + "/current", false);
+    xhttp.send();
+    
+    if (xhttp.status === 200) {
+    // console.log(xhttp.responseText);
+    }
+    
+    var xmlDoc1 = xhttp.responseXML;
+    
+    var rootNode = xmlDoc1.documentElement;
+    
+    var items = new Array();
+    // Tried every combination of xpath - sigh
+    //items[0] = "/*[local-name()='ComponentStream']/*[local-name()='Samples']";
+    //items[1] = "/*[local-name()='ComponentStream']/*[local-name()='Events']";
+    //items[2] = "/*[local-name()='ComponentStream']/*[local-name()='Condition']";
+    
+    
+    var nodes=[];
+    if(window.XPathResult)
+    {
+      var tnodes = xmlDoc1.evaluate("/*/*/*[local-name()='DeviceStream']", rootNode, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
+     for (var i = 0; i < tnodes.snapshotLength; i++) {
+           nodes.push(tnodes.snapshotItem(i));
+     }
+    }
+    else
+    {
+      var tnodes = rootNode.selectNodes("//DeviceStream");
+       for (var i = 0; i < tnodes.length; i++) {
+           nodes.push(tnodes[i]);
+       }
+    }
+    
+
+    for (var i = 0; i < nodes.length; i++) {
+    //for (var i = 0; i < nodes.snapshotLength; i++) {
+        var userDict = new Dictionary();
+        var node = nodes[i];
+        tmp = tmp + "<P>" + node.getAttribute("name");
+        
+        items[0] = "Samples";
+        items[1] = "Events";
+        items[2] = "Condition";
+        
+        for (var ii = 0; ii < 3; ii++) {
+            var samples = [];
+            //samples = xmlDoc1.evaluate(items[ii], node, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
+            
+            var componentStream = node.getElementsByTagName("ComponentStream");
+            
+            for (var j = 0; j < componentStream.length; j++) 
+            {
+                var tags = componentStream[j].getElementsByTagName(items[ii]);
+                for (var jj = 0; jj < tags.length; jj++)
+                    samples.push(tags[jj]);
+            }
+            
+            for (var j = 0; j < samples.length; j++) {
+                var sample = samples[j];
+                for (var k = 0; k < sample.childNodes.length; k++) {
+                    var child = sample.childNodes[k];
+                    if (child.nodeType == 3)
+                        continue;
+                    if (child.getAttribute("name") != null) {
+                        userDict.Add(child.getAttribute("name"), (window.XPathResult)? child.textContent: child.text )
+                    } else if (child.getAttribute("dataItemd") != null) {
+                        userDict.Add(child.getAttribute("dataItemId"), (window.XPathResult)? child.textContent: child.text)
+                    }
+                }
+            }
+        }
+        tmp = tmp + "<TABLE> ";
+        var keys = userDict.Keys;
+        keys.sort(function(x, y) {
+            var a = String(x).toUpperCase();
+            var b = String(y).toUpperCase();
+            if (a > b)
+                return 1;
+            if (a < b)
+                return -1;
+            return 0;
+        });
+        for (var k = 0; k < keys.length; k++) {
+            tmp = tmp + "<tr><td>" + keys[k] + "</td> <td>" + userDict.Lookup(keys[k]) + "</td> </tr>\n";
+        }
+        tmp = tmp + "</TABLE> ";
+    }
+    return tmp;
+}
+
+function timedRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);", timeoutPeriod);
+}
+
+function myTimer() {
+    var machine = window.location.host;
+    var x = updatetable(machine);
+    document.getElementById("Device").innerHTML = x;
+}
+</script>
+</head>
+<body>
+<h1> MTConnect Readings</H1>
+<div id="Device"> 
+Table
+</div>
+<script type="text/javascript">
+myTimer();
+window.setInterval(myTimer,2000);
+</script>
+</body>
+</html>

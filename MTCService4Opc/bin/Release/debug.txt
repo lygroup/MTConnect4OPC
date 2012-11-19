@@ -28,3 +28,9 @@ OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x
 MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.20559
 OPC Disconnect Error: The server threw an exception. (Exception from HRESULT: 0x80010105 (RPC_E_SERVERFAULT))
 Stop MTConnect Service10/19/2009 2:58:52 PM
+11/15/2012 11:21:11 AM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.39848
+11/15/2012 1:51:29 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.24931
+11/15/2012 4:08:56 PM
+MTConnect 4 OPC Agent OPC Version 2.0 - Release Version:1.0.0.29065

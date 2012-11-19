@@ -8,6 +8,9 @@ using System.Reflection;
 using System.Threading;
 using System.Configuration;
 using System.Runtime.InteropServices;
+using System.Net;
+using System.IO;
+using System.Xml;
 
 
 using Utilities;
@@ -284,6 +287,7 @@ namespace MTCService4Opc
                 // Create and start MT Connect agent (in dll assembly)
                 agent = new MTConnectAgentCore.Agent();
                 agent.Start(nMTCPort);
+                agent.hst.userCommandDelegate += new MTConnectAgentCore.UserCommandDelegate(MyUserCommandDelegate);
 
             }
             catch (Exception e)
@@ -321,6 +325,35 @@ namespace MTCService4Opc
             if (!bTerminating)
                 aTimer.Start();
 
+        }
+        public short MyUserCommandDelegate(String deviceId, HttpListenerResponse response, HttpListenerRequest request, StreamWriter writer)
+        {
+            try
+            {
+                string[] segments = request.Url.Segments; // {/,devicename,sample
+                if (segments.Length > 1) //http://<IP>/reset or 
+                {
+                    if (segments.Length == 2 && segments[1] == "monitor")
+                    {
+                        response.ContentType = "text/html";
+
+                        string str = MTCService4Opc.Resource.jsmtconnect;
+                        writer.Write(str);
+                        //XmlTextWriter xw = new XmlTextWriter(writer);
+                        //xw.Formatting = Formatting.Indented; // optional
+                        //xw.WriteStartElement("MTConnectAgent");
+                        //xw.WriteAttributeString("state", "resetting");
+                        //xw.WriteEndElement();
+                        return MTConnectAgentCore.ReturnValue.SUCCESS;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+
+            return MTConnectAgentCore.ReturnValue.ERROR;
         }
     }
 }

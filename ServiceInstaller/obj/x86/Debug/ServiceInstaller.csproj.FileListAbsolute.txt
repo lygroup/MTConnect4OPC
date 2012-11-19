@@ -1,0 +1,5 @@
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\ServiceInstaller\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\ServiceInstaller\bin\Debug\ServiceInstaller.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\ServiceInstaller\bin\Debug\ServiceInstaller.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\ServiceInstaller\obj\x86\Debug\ServiceInstaller.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\ServiceInstaller\obj\x86\Debug\ServiceInstaller.pdb

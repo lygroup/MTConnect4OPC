@@ -1,10 +1,8 @@
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTCService4Opc.exe
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTCService4Opc.pdb
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTConnectAgentCore.dll
-C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTConnectAgentSHDR.dll
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\Novell.Directory.Ldap.dll
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTConnectAgentCore.pdb
-C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Release\MTConnectAgentSHDR.pdb
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\ResolveAssemblyReference.cache
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\MTCService4Opc.exe
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\MTCService4Opc.pdb
@@ -28,3 +26,6 @@ D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\ResolveAssemblyReference.cache
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\MTCService4Opc.exe
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\MTCService4Opc.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\MTCService4Opc.Resource.resources
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\GenerateResource.read.1.tlog
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Release\GenerateResource.write.1.tlog

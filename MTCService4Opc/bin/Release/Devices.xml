@@ -20,6 +20,14 @@
 
               </DataItems>
             </Spindle>
+           <Spindle name="S2" id="id19111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id19121" name="S2rpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id19122" name="S2lod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id19123" name="S2ovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id19124" name="S2_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+              </DataItems>
+            </Spindle>
             <Linear name="X" id="id10112">
               <DataItems>
                 <DataItem category="SAMPLE" id="id10134" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
@@ -67,11 +75,17 @@
         </Axes>
         <Controller name="Controller" id="id10201">
           <DataItems>
+            <DataItem category="EVENT"  id="id12211" name="heartbeat" type="CODE"></DataItem>
             <DataItem category="EVENT"  id="id10211" name="line" type="LINE"></DataItem>
             <DataItem category="EVENT"  id="id10212" name="execution" type="EXECUTION"></DataItem>      
             <DataItem category="EVENT"  id="id10213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
             <DataItem category="EVENT"  id="id10214" name="program" type="PROGRAM"></DataItem>
             <DataItem category="EVENT"  id="id10215"  name="alarm" type="ALARM"></DataItem>
+ 		<DataItem category="EVENT"  id="id12216"  name="alarmNative" type="CODE"></DataItem>
+    		<DataItem category="EVENT"  id="id12217"  name="alarmField1" type="CODE"></DataItem>
+    		<DataItem category="EVENT"  id="id12218"  name="alarmField2" type="CODE"></DataItem>
+   		 <DataItem category="EVENT"  id="id12219"  name="alarmField3" type="CODE"></DataItem>
+   		 <DataItem category="EVENT"  id="id12220"  name="alarmField4" type="CODE"></DataItem>
             <DataItem category="EVENT"  id="id10216" name="block" type="BLOCK"></DataItem>
             <DataItem category="EVENT"  id="id10217" name="Tool_number" type="CODE"></DataItem>
             <DataItem category="EVENT"  id="id10218" name="Tool_suffix" type="CODE"></DataItem>
@@ -101,6 +115,14 @@
                 <DataItem category="SAMPLE" id="id20123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
                 <DataItem category="SAMPLE" id="id20124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
 
+              </DataItems>
+            </Spindle>
+          <Spindle name="S2" id="id29111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id29121" name="S2rpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id29122" name="S2lod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id29123" name="S2ovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id29124" name="S2_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
               </DataItems>
             </Spindle>
             <Linear name="X" id="id20112">
@@ -150,7 +172,8 @@
         </Axes>
         <Controller name="Controller" id="id20201">
           <DataItems>
-            <DataItem category="EVENT"  id="id20211" name="line" type="LINE"></DataItem>
+             <DataItem category="EVENT"  id="id22211" name="heartbeat" type="CODE"></DataItem>
+           <DataItem category="EVENT"  id="id20211" name="line" type="LINE"></DataItem>
             <DataItem category="EVENT"  id="id20212" name="execution" type="EXECUTION"></DataItem>      
             <DataItem category="EVENT"  id="id20213" name="controllermode" type="CONTROLLER_MODE"></DataItem>
             <DataItem category="EVENT"  id="id20214" name="program" type="PROGRAM"></DataItem>
@@ -159,7 +182,12 @@
             <DataItem category="EVENT"  id="id20217" name="Tool_number" type="CODE"></DataItem>
             <DataItem category="EVENT"  id="id20218" name="Tool_suffix" type="CODE"></DataItem>
             <DataItem category="EVENT"  id="id20219" name="Tool_group" type="CODE"></DataItem>
-       </DataItems>
+  		<DataItem category="EVENT"  id="id22216"  name="alarmNative" type="CODE"></DataItem>
+    		<DataItem category="EVENT"  id="id22217"  name="alarmField1" type="CODE"></DataItem>
+    		<DataItem category="EVENT"  id="id22218"  name="alarmField2" type="CODE"></DataItem>
+   		 <DataItem category="EVENT"  id="id22219"  name="alarmField3" type="CODE"></DataItem>
+   		 <DataItem category="EVENT"  id="id22220"  name="alarmField4" type="CODE"></DataItem>
+      </DataItems>
         </Controller>
         <Power name="power" id="id20301">
           <DataItems>
@@ -184,6 +212,14 @@
                 <DataItem category="SAMPLE" id="id30123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
                 <DataItem category="SAMPLE" id="id30124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
 
+              </DataItems>
+            </Spindle>
+          <Spindle name="S2" id="id39111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id39121" name="S2rpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id39122" name="S2lod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id39123" name="S2ovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id39124" name="S2_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
               </DataItems>
             </Spindle>
             <Linear name="X" id="id30112">
@@ -267,6 +303,15 @@
                 <DataItem category="SAMPLE" id="id40123" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
                 <DataItem category="SAMPLE" id="id40124" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
 
+              </DataItems>
+            </Spindle>
+
+          <Spindle name="S2" id="id49111">
+              <DataItems>
+                <DataItem category="SAMPLE" id="id49121" name="S2rpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="id49122" name="S2lod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id439123" name="S2ovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="id49124" name="S2_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
               </DataItems>
             </Spindle>
             <Linear name="X" id="id40112">

@@ -10,13 +10,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MTCService4Opc</RootNamespace>
     <AssemblyName>MTCService4Opc</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,10 +41,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\MTConnectAgentCore\bin\Debug\MTConnectAgentCore.dll</HintPath>
     </Reference>
-    <Reference Include="MTConnectAgentSHDR, Version=0.3.0.24452, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MTConnectAgentSHDR\bin\Debug\MTConnectAgentSHDR.dll</HintPath>
-    </Reference>
     <Reference Include="Novell.Directory.Ldap, Version=2.1.10.0, Culture=neutral">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\MTConnectAgentCore\bin\Debug\Novell.Directory.Ldap.dll</HintPath>
@@ -66,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlarmMsgs.cs" />
     <Compile Include="DCOM.cs" />
     <Compile Include="DynamicInstaller.cs">
       <SubType>Component</SubType>
@@ -75,6 +73,11 @@
     <Compile Include="OPCGroup.cs" />
     <Compile Include="OPCMgr.cs" />
     <Compile Include="OPCSimpleWrapper.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
     <Compile Include="Service1.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -90,10 +93,13 @@
     <Content Include="Devices.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="jsmtconnect.html" />
     <Content Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="install.bat" />
     <None Include="mtcagent.ini">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -105,6 +111,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="uninstall.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

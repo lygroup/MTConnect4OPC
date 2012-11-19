@@ -1,0 +1,93 @@
+    <Device sampleRate="10.0" name="DDDD" iso841Class="1" uuid="nist-opcda-net-2-mt-connect" id="DDDD01">
+      <Description manufacturer="Unknown" serialNumber="00001"></Description>
+      <Components>
+        <Axes name="Axes" id="DDDD02">
+          <DataItems>
+            <DataItem type="PATH_FEEDRATE" name="path_feedratefrt" category="SAMPLE" id="DDDD03" units="MILLIMETER/SECOND" subType="ACTUAL"/>
+            <DataItem category="SAMPLE" id="DDDD04" name="path_feedrateovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+          </DataItems>
+          <Components>
+            <Spindle name="S" id="DDDD10">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD11" name="Srpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="DDDD12" name="Slod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="DDDD13" name="Sovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="DDDD14" name="S_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+
+              </DataItems>
+            </Spindle>
+           <Spindle name="S2" id="DDDD20">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD21" name="S2rpm" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE" subType="ACTUAL"></DataItem>
+              	<DataItem category="SAMPLE" id="DDDD22" name="S2lod_percent" type="LOAD" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="DDDD23" name="S2ovr" type="OTHER" units="PERCENT" subType="ACTUAL"></DataItem>
+                <DataItem category="SAMPLE" id="DDDD24" name="S2_tempreture" type="TEMPERATURE" units="CELSIUS" subType="ACTUAL"></DataItem>
+              </DataItems>
+            </Spindle>
+            <Linear name="X" id="DDDD30">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD31" name="Xabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD32" name="Xfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD33" name="Xlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+              </DataItems>
+            </Linear>
+            <Linear name="Y" id="DDDD40">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD41" name="Yabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD42" name="Yfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD43" name="Ylod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Linear>
+            <Linear name="Z" id="DDDD50>
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD51" name="Zabs" type="POSITION" units="MILLIMETER" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD52" name="Zfrt" type="AXIS_FEEDRATE" units="MILLIMETER/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD53" name="Zlod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+
+              </DataItems>
+            </Linear>
+            <Rotary name="A" id="DDDD60">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD61" name="Adeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD62" name="Afrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD63" name="Alod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="B" id="DDDD70">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD71" name="Bdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD72" name="Bfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD73" name="Blod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+            <Rotary name="C" id="DDDD80">
+              <DataItems>
+                <DataItem category="SAMPLE" id="DDDD81" name="Cdeg" type="ANGLE" units="DEGREE" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD82" name="Cfrt" type="ANGULAR_VELOCITY" units="DEGREE/SECOND" subType="ACTUAL" ></DataItem>
+                <DataItem category="SAMPLE" id="DDDD83" name="Clod_percent" type="LOAD" units="PERCENT" subType="ACTUAL" ></DataItem>
+             </DataItems>
+            </Rotary>
+          </Components>
+        </Axes>
+        <Controller name="Controller" id="DDDD100">
+          <DataItems>
+            <DataItem category="EVENT"  id="DDDD101" name="heartbeat" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD102" name="line" type="LINE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD103" name="execution" type="EXECUTION"></DataItem>      
+            <DataItem category="EVENT"  id="DDDD104" name="controllermode" type="CONTROLLER_MODE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD105" name="program" type="PROGRAM"></DataItem>
+            <DataItem category="EVENT"  id="DDDD106"  name="alarm" type="ALARM"></DataItem>
+ 	    <DataItem category="EVENT"  id="DDDD107"  name="alarmNative" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD108" name="block" type="BLOCK"></DataItem>
+            <DataItem category="EVENT"  id="DDDD109" name="Tool_number" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD110" name="Tool_suffix" type="CODE"></DataItem>
+            <DataItem category="EVENT"  id="DDDD111" name="Tool_group" type="CODE"></DataItem>
+        </DataItems>
+        </Controller>
+        <Power name="power" id="DDDD200">
+          <DataItems>
+            <DataItem category="EVENT" id="DDDD201" name="power" type="POWER_STATUS"></DataItem>
+          </DataItems>
+        </Power>
+      </Components>
+    </Device>

@@ -39,7 +39,6 @@ namespace OpcLibrary
             public string opcalias;
             public string type;  // sample, event, alarm
             public string value;
-            public string lastvalue;
             public int nKey;
             public bool bEnum;
         }
@@ -66,6 +65,7 @@ namespace OpcLibrary
         public string sPassword;
         public string sDomain;
         public string sOpcClsid;                        // clsid of OPC Server
+        public AlarmMsgs alarms = new AlarmMsgs();
 
         // OPC Client-Server declarations
         public Hashtable updateditems;
@@ -93,7 +93,24 @@ namespace OpcLibrary
         {
             Logger.LogMessage(errmsg, (int) level);
         }
-
+        public int FindTagIndex(string name)
+        {
+            for(int i=0; i< symbols.Count; i++)
+            {
+              if(symbols[i].name == name)
+                return i;
+            }
+            return -1;
+        }
+        public string FindTagValue(string name)
+        {
+            for(int i=0; i< symbols.Count; i++)
+            {
+              if(symbols[i].name == name)
+                  return symbols[i].value;
+            }
+            return "";
+        }
         /// <summary>
         /// Initialize Potential OPC Tag names to canonical ids (ints).
         /// </summary>
@@ -173,7 +190,11 @@ namespace OpcLibrary
                         symbol.type = "Sample";
                         id = id.Substring(7);
                     }
-
+                    if (id.StartsWith("Data."))
+                    {
+                        symbol.type = "Data";
+                        id = id.Substring(5);
+                    }
                     symbol.name = (string)id;
                     symbol.opcalias = (string)de.Value;
                     symbol.nKey = i;
@@ -314,6 +335,22 @@ namespace OpcLibrary
             String s = DateTime.Now.ToString("s");
             if (agent == null)
                 throw new Exception("MTC Update no agent");
+            
+            // Update symbol values, then write to Agent
+            foreach (DictionaryEntry de in updateditems)
+            {
+                try
+                {
+                    int key = (int)de.Key;
+                    i = key;
+                    String value = (String)itemvalues[key];
+                    symbols[i].value = value;
+                }
+                catch (Exception e)
+                {
+                    LogMessage("MT Connect Update Value Save Error: " + e.Message, LogLevel.ERROR);
+                }
+            }
 
             foreach (DictionaryEntry de in updateditems)
             {
@@ -336,8 +373,6 @@ namespace OpcLibrary
                     // Lookup MT-Connect string equivalent to Canonical OPC Tag Id
                     String value = (String)itemvalues[key];
 
-                    symbols[i].lastvalue = symbols[i].value;
-
                     if (symbols[i].bEnum)
                     {
                         string tag = "Enum." + symbols[i].name + "." + value;
@@ -357,10 +392,32 @@ namespace OpcLibrary
                     {
                         if (value == "0")
                         {
-                            StoreEvent(s, device, "alarm", value, "", "", "OTHER", "CRITICAL", "0", "CLEARED");
+                            StoreEvent(s, device, "alarm", "", "", "", "OTHER", "CRITICAL", "0", "CLEARED");
                         }
                         else
                         {
+                            string alarmNative = FindTagValue("alarmNative");
+                            string sAlarmMessage="";
+                            int lNativeCode;
+                            // <add key="Tag.Event.alarmNative" value="/Nck/LastAlarm/textIndex" />
+                            
+                            // Look up native code
+                            if (alarms.alarm.Keys.Contains(alarmNative))
+                                sAlarmMessage = alarms.alarm[alarmNative];
+
+                            bool flag = Int32.TryParse(alarmNative, out lNativeCode);
+                            for (int j = 0; flag && j < 4; j++)
+                            {
+                                string fillText = FindTagValue("alarmField" + Convert.ToString(j + 1));
+                                if (fillText.Length == 0 )
+                                    continue;
+                                if (fillText[0] == 'S' || fillText[0] == 'K')
+                                    fillText = fillText.Substring(1);
+                                sAlarmMessage = sAlarmMessage.Replace(Convert.ToString(j + 1)+ "%", fillText);
+                            }
+                            if (sAlarmMessage.Length > 0)
+                                value = sAlarmMessage;
+                            
                             StoreEvent(s, device, "alarm", value, "", "", "OTHER", "CRITICAL", "-1", "ACTIVE");
                         }
 

@@ -1,7 +1,58 @@
 ﻿
 
+RUNNING NOTES:
+Make sure you are logged in to the domain name server and not locally or DCOM will automatically fail, and not give you a decent error message.
 
- 
+DEBUGGING NOTES:
+Surprised no one has actually answered. Put a MessageBox.Show("hello") into your custom action's Install() member. Build the deployment in debug config. Install. When the MessageBox appears, go into VS IDE, Debug, Attach Process and look for the instance of msiexec that is labeled "Managed". Attach the debugger to that instance of msiexec. Now go back to the source of your custom action and place a breakpoint right after the call to MessageBox.Show(). Close the MessageBox and your breakpoint will be hit, and you're debugging in the IDE!
+
+INSTALL NOTES:
+
+When building install - Make sure you use Release of MTC4OPCService or will use exe which is not a service
+
+INSTALLATION NOTES:
+
+http://support.microsoft.com/kb/816169
+http://www.c-sharpcorner.com/UploadFile/mgold/CustomInstallMG11102005235312PM/CustomInstallMG.aspx 
+
+http://devcity.net/Articles/339/6/article.aspx
+
+ /IpValue=[EDITA2]/Target=[TARGETDIR]
+ /IpValue=[EDITA1] /Target=\"[TARGETDIR]\"  // needs space
+namespace MTCInstaller
+{
+    [RunInstaller(true)]
+    public partial class MTCInstall : System.Configuration.Install.Installer
+    {
+        public MTCInstall()
+        {
+            InitializeComponent();
+        }
+
+        public override void Install(IDictionary savedState)
+        {
+            base.Install(savedState);
+           // string Target = this.Context.Parameters["Target"];
+           // string IpAddresses = this.Context.Parameters["IpValue"];
+        }
+        // Override the 'Commit' method. 
+        public override void Commit(IDictionary savedState)
+        {
+            base.Commit(savedState);
+        }
+        // Override the 'Rollback' method. 
+        public override void Rollback(IDictionary savedState)
+        {
+            base.Rollback(savedState);
+        }
+        public static void Main()
+        {
+            Console.WriteLine("Usage : installutil.exe Installer.exe ");
+        }
+
+    }
+}
+
 Home > View Post 
 Logging Levels and how to use them
 

@@ -1,0 +1,8 @@
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\MTCInstaller.Properties.Resources.resources
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\bin\Debug\MTCInstaller.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\MTCInstaller.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\bin\Debug\MTCInstaller.exe
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCInstaller\obj\x86\Debug\MTCInstaller.exe

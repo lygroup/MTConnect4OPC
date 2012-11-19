@@ -10,7 +10,7 @@ using System.Web;
 namespace MTConnectAgentCore
 {
     internal delegate void delReceiveWebRequest(HttpListenerContext Context);
-    public delegate short UserCommandDelegate(String deviceId, HttpListenerRequest Context, StreamWriter writer);
+    public delegate short UserCommandDelegate(String deviceId, HttpListenerResponse response, HttpListenerRequest Context, StreamWriter writer);
 
      public class HttpServer
     {
@@ -131,7 +131,7 @@ namespace MTConnectAgentCore
                 StreamWriter writer = new StreamWriter(response.OutputStream, System.Text.UTF8Encoding.UTF8);
                 try
                 {
-                    short rv = process2(request, writer);
+                    short rv = process2(response,request, writer);
                     if (rv == ReturnValue.ERROR)
                     {
                         response.StatusCode = 500;
@@ -163,7 +163,7 @@ namespace MTConnectAgentCore
             return ReturnValue.ERROR;
         }
 
-        private short process2(HttpListenerRequest request, StreamWriter writer)
+        private short process2(HttpListenerResponse response, HttpListenerRequest request, StreamWriter writer)
         {
 
             //segument[0] = / segumens[1] = sample, for http:/127.0.0.1/sample?path= is 
@@ -198,7 +198,7 @@ namespace MTConnectAgentCore
                         default:
                             {
                                 if (userCommandDelegate != null)
-                                    if (ReturnValue.SUCCESS == userCommandDelegate(null, request, writer))
+                                    if (ReturnValue.SUCCESS == userCommandDelegate(null, response, request, writer))
                                         return ReturnValue.SUCCESS;
                                 return createInvalidRequestError(writer, null);
                             }
@@ -244,7 +244,7 @@ namespace MTConnectAgentCore
                         default:
                             {
                                 if (userCommandDelegate != null)
-                                    if (ReturnValue.SUCCESS == userCommandDelegate(deviceName, request, writer))
+                                    if (ReturnValue.SUCCESS == userCommandDelegate(deviceName, response, request, writer))
                                         return ReturnValue.SUCCESS;
                                 return createInvalidRequestError(writer, null);
                             }

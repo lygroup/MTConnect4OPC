@@ -2,10 +2,8 @@ C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.pdb
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.dll
-C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.dll
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\Novell.Directory.Ldap.dll
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.pdb
-C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.pdb
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.exe
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
 C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTCService4Opc.exe.config
@@ -28,3 +26,6 @@ D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.pdb
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentCore.pdb
 D:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\bin\Debug\MTConnectAgentSHDR.pdb
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\MTCService4Opc.Resource.resources
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\GenerateResource.read.1.tlog
+C:\Program Files\NIST\proj\MTConnect\GaTechSDKSrc\src\MTConnectAgent\MTCService4Opc\obj\Debug\GenerateResource.write.1.tlog
